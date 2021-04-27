@@ -13,8 +13,9 @@
 		E90D57A12634AD0A000D4B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90D579F2634AD0A000D4B67 /* Main.storyboard */; };
 		E90D57A32634AD0B000D4B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90D57A22634AD0B000D4B67 /* Assets.xcassets */; };
 		E90D57A62634AD0B000D4B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90D57A42634AD0B000D4B67 /* LaunchScreen.storyboard */; };
-		E90D57AF2634B055000D4B67 /* Pettion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D57AE2634B055000D4B67 /* Pettion.swift */; };
+		E90D57AF2634B055000D4B67 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D57AE2634B055000D4B67 /* Petition.swift */; };
 		E90D57B22634B0E6000D4B67 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D57B12634B0E6000D4B67 /* Petitions.swift */; };
+		E932AEA726355B2700311863 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E932AEA626355B2700311863 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		E90D57A22634AD0B000D4B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90D57A52634AD0B000D4B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90D57A72634AD0B000D4B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E90D57AE2634B055000D4B67 /* Pettion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pettion.swift; sourceTree = "<group>"; };
+		E90D57AE2634B055000D4B67 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		E90D57B12634B0E6000D4B67 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		E932AEA626355B2700311863 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 				E90D57992634AD0A000D4B67 /* AppDelegate.swift */,
 				E90D579B2634AD0A000D4B67 /* SceneDelegate.swift */,
 				E90D579D2634AD0A000D4B67 /* ViewController.swift */,
-				E90D57AE2634B055000D4B67 /* Pettion.swift */,
+				E932AEA626355B2700311863 /* DetailViewController.swift */,
+				E90D57AE2634B055000D4B67 /* Petition.swift */,
 				E90D57B12634B0E6000D4B67 /* Petitions.swift */,
 				E90D579F2634AD0A000D4B67 /* Main.storyboard */,
 				E90D57A22634AD0B000D4B67 /* Assets.xcassets */,
@@ -145,8 +148,9 @@
 			files = (
 				E90D579E2634AD0A000D4B67 /* ViewController.swift in Sources */,
 				E90D579A2634AD0A000D4B67 /* AppDelegate.swift in Sources */,
+				E932AEA726355B2700311863 /* DetailViewController.swift in Sources */,
 				E90D579C2634AD0A000D4B67 /* SceneDelegate.swift in Sources */,
-				E90D57AF2634B055000D4B67 /* Pettion.swift in Sources */,
+				E90D57AF2634B055000D4B67 /* Petition.swift in Sources */,
 				E90D57B22634B0E6000D4B67 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,6 @@
 import Foundation
 
 
-struct  Petitions: Codable {
+struct  Petitions: Codable { // result it a dictionary in JSON. We should load "results" KEY to be inside in array load a result of request
     var results: [Petition]
 }
